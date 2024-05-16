@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/gameC.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game C</title>
+    <link href="../css/GameC.css" rel="stylesheet" />
+  </head>
 
-<style>
+  <body>
+    <div id="score">Score : 0</div>
+    <button id="start">Start</button>
 
-</style>
-<body>
+    <div>
+      <div id="enemycar1">
+        <img id="ecarimg1" class="ecarimg" src="../image/car2.png" alt="" />
+      </div>
+      <div id="enemycar2">
+        <img id="ecarimg2" class="ecarimg" src="../image/car3.png" alt="" />
+      </div>
+      <div id="enemycar3">
+        <img id="ecarimg3" class="ecarimg" src="../image/car2.png" alt="" />
+      </div>
+      <div id="enemycar4">
+        <img id="ecarimg4" class="ecarimg" src="../image/car3.png" alt="" />
+      </div>
+    </div>
 
-  <div id="score">score : 0</div>
-  <button id="start">start</button>
+    <div id="mycar">
+      <img id="mycarimg" class="mycarimg" src="../image/car1.png" alt="" />
+    </div>
+    <div id="road"></div>
 
-     <div>
-         <div id="enemycar1"><img id="ecarimg1" class="ecarimg" src="../image/ca2.png" alt=""></div>
-         <div id="enemyca2"><img id="ecarimg2" class="ecarimg" src="../image/car3.png.png" alt=""></div>
-         <div id="enemycar3"><img id="ecarimg3" class="ecarimg" src="../image/ca2.png" alt=""></div>
-         <div id="enemycar4"><img id="ecarimg4" class="ecarimg" src="../image/car3.png.png" alt=""></div>
-     </div>
-
-     <div id="mycar"><img id="mycarimg" class="mycarimg" src="../image/mycar.png" alt=""></div>
-
-     <div id="road"></div>
-
-</body>
-
+    <script src="../JavaScript/GameC.js"></script>
+  </body>
 </html>
