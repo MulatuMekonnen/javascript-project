@@ -1,8 +1,4 @@
 :root {
-
-    /**
-     * COLORS
-     */
   
     /* background color */
     --bg-purple: hsla(267, 100%, 63%, 1);
@@ -26,10 +22,6 @@
     /* border color */
     --border-space-cadet: hsl(240, 45%, 17%);
     --border-purple-alpha-30: hsla(267, 100%, 63%, 0.3); 
-  
-    /**
-     * TYPOGRAPHY
-     */
   
     /* font family */
     --fontFamily-oxanium: 'Oxanium', cursive;
@@ -95,13 +87,6 @@
   }
   
   
-  
-  
-  
-  /*-----------------------------------*\
-    #RESET
-  \*-----------------------------------*/
-  
   *,
   *::before,
   *::after {
@@ -130,14 +115,21 @@
     font: inherit;
   }
   
-  input,
-  textarea { width: 100%; }
+  input,textarea { 
+    width: 100%;
+   }
   
-  button { cursor: pointer; }
+  button { 
+    cursor: pointer;
+   }
   
-  ion-icon { pointer-events: none; }
+  ion-icon { 
+    pointer-events: none;
+   }
   
-  address { font-style: normal; }
+  address {
+     font-style: normal; 
+    }
   
   html {
     font-size: 10px;
@@ -146,7 +138,7 @@
   
   body {
     background-color: var(--bg-dark-purple);
-    background-image: url("../images/body-bg.jpg");
+    background-image: url("../image/body-bg.jpg");
     background-repeat: none;
     color: var(--text-gainsboro);
     font-family: var(--fontFamily-oxanium);
@@ -167,7 +159,7 @@
   
   
   /*-----------------------------------*\
-    #REUSED STYLE
+ #REUSED STYLE
   \*-----------------------------------*/
   
   .container { padding-inline: 12px; }
@@ -416,9 +408,6 @@
   }
   
   .hero-banner-bg{ display: none; }
-  
-  
-  
   
   
   /*-----------------------------------*\
